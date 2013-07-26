@@ -1,0 +1,30 @@
+{
+    "name": "restdoc"
+  , "version": "0.1.0"
+  , "preferGlobal": false,
+    "description": "Express application documentation",
+    "main": "lib/index.js",
+    "author": "Jussi Vatjus-Anttila <jussiva@gmail.com>",
+    "contributors": [ 
+      {
+        "name": "Jussi Vatjus-Anttila",
+        "email": "jussiva@gmail.com"
+      } 
+    ],
+    "keywords": ["expressjs", "rest", "doc", "documentation", "restful"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/jupe/restdoc.git"
+    },
+    "dependencies": {
+      "underscore": "expressjs"
+  }, "devDependencies": {
+      "mocha": "*",
+      "chai": "*"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=0.8.0" },
+  "scripts": {
+    "test": "mocha -R list test"
+  }
+}
