@@ -3,6 +3,8 @@
 restdoc
 =======
 
+![Page] (screenshots/page.png)
+
 Node.js library for expressjs RESTful app API documentation.
 
 License
