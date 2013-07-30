@@ -46,7 +46,7 @@ models.forEach( function(model) {
   dCtrl.resource = res;
   
 });
-restdoc(app, '/doc', 'RESTDOC');
+restdoc(app, '/doc', 'RESTDOC', mongoose);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
